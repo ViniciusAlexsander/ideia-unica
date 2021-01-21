@@ -1,5 +1,12 @@
+import Link from 'next/link';
+
 function Home() {
-  return <div>HOME BONITONA</div>
+  return (
+    <div>
+      <div>HOME BONITONA</div>
+      <Link href="/sobre">Acessar página sobre</Link>
+    </div>
+  );
 }
 
-export default Home;
+export default Home; 
