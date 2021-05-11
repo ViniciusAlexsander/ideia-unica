@@ -20,7 +20,7 @@ export async function getStaticProps() {
       staticDateString
     },
     //para revalidar os dados a cada 1 segundo
-    revalidate: 1
+    revalidate: 85000
   }
 }
 
